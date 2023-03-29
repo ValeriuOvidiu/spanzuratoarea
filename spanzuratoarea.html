@@ -23,9 +23,9 @@
         <div class="card" style="width: 50rem;">
             <div class="card-body">
                 <label for="name">Introdu cuvantul</label>
-                <input type="password" id="input1" name="name" required size="20">
+                <input type="password" id="wordInput" name="name" required size="20">
                 <div>
-                    <button id="Button" onclick="salveaza()" name="button">Trimite</button>
+                    <button id="Button" onclick="save()" name="button">Trimite</button>
                 </div>
             </div>
         </div>
@@ -46,9 +46,9 @@
     <div class="card" style="width: 50rem;">
         <div class="card-body">
             <label for="name">Introdu litera</label>
-            <input type="text" id="input2" name="name" required maxlength="1" size="2">
+            <input type="text" id="letterInput" name="name" required maxlength="1" size="2">
             <div>
-                <button id="secondButton" onclick="compara()" name="button" disabled="true">Trimite litera</button>
+                <button id="secondButton" onclick="letterProcessing()" name="button" disabled="true">Trimite litera</button>
             </div>
         </div>
         <div class="card" style="width: 50rem;">
